@@ -21,7 +21,7 @@ Both programs follow the same approach: reading the input image, detecting faces
 - **happy_girl.jpg**: Sample input image.
 - **haarcascade_frontalface_default.xml**: Pre-trained object detection model for face detection. This repository also contains other haarcascade models like QR code detector and number plate detector that can be useful for other projects.
 
-## Realtime Emotion Recognition
+
 
 If you enjoyed this project, you might be interested in my other project on  [converting an image to a pencil sketch](https://github.com/ask-1710/PencilSketch.git).
 
