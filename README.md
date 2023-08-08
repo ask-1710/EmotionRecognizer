@@ -1,16 +1,32 @@
-# EmotionRecognizer
-Python script to recognize the emotion of a person in the picture using Opencv and DeepFace
+# Emotion Recognition using OpenCV and DeepFace
 
-1. EmotionRecognizer.py -> python code to detect emotions in the input image. 
-2. EmotionRecognizer.ipynb -> jupyter notebook with slight changes in the code.
+This repository contains Python scripts for recognizing the emotions of a person in a picture using OpenCV and DeepFace.
 
-  Both the programs follow the same approach of reading the image , detecting faces in the image , detecting the dominant emotions , age , gender and race of the person, writing the result as text on the image and finally displaying the image. 
+## Files
 
-  Packages : 
-  opencv-python -> to read the image, add text and draw bounding boxes on the image and to use the frontal face haarcascade classifier.
-  DeepFace -> to detect the dominant emotion, age, race and gender of the person in the image. Throws error if it does not detect an image. ( PS: Dont try it with your pet's pictures :D )
+- **EmotionRecognizer.py**: Python code to detect emotions in the input image.
+- **EmotionRecognizer.ipynb**: Jupyter notebook with slight changes in the code for interactive exploration.
 
-2. happy_girl.jpg    ->  input image
-3. haarcascade_frontalface_default.xml -> pre-trained object detection models for face detection. You have many more haarcascade models like QR code detector and number plate detector which come of use in other mini-projects. Link to check it out : https://github.com/anaustinbeing/haar-cascade-files
+Both programs follow the same approach: reading the input image, detecting faces in the image, determining the dominant emotions, age, gender, and race of the person, writing the results as text on the image, and finally displaying the image.
 
-If you liked it, you should probably check out my project on realtime emotion recognition. 
+## Packages
+
+- **opencv-python**: Used for reading the image, adding text, drawing bounding boxes, and using the frontal face haarcascade classifier.
+- **DeepFace**: Used for detecting the dominant emotion, age, race, and gender of the person in the image. Throws an error if it does not detect a person's face.
+
+**Note**: Using this script with pet pictures is not recommended. 😄
+
+## Contents
+
+- **happy_girl.jpg**: Sample input image.
+- **haarcascade_frontalface_default.xml**: Pre-trained object detection model for face detection. This repository also contains other haarcascade models like QR code detector and number plate detector that can be useful for other projects.
+
+## Realtime Emotion Recognition
+
+If you enjoyed this project, you might be interested in my other project on  [converting an image to a pencil sketch](https://github.com/ask-1710/PencilSketch.git).
+
+Feel free to explore, contribute, and share your feedback!
+
+---
+
+If you found this project useful, don't forget to give it a ⭐!
